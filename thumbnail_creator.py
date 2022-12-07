@@ -7,7 +7,7 @@ _FORMATS = ['.jpg', '.png', '.jpeg']
 
 class ThumbnailCreator:
 
-    def __init__(self, args):
+    def __init__(self, args): 
         self.args = args
 
     def run(self):
@@ -19,13 +19,13 @@ class ThumbnailCreator:
 
     def __thumbnail_all_images(self):
         """creates a thumbnail of all the images in the current path"""
-        count = 0
+        count = False
         for file in os.listdir():
             file_name, extension = os.path.splitext(file)
             if extension in _FORMATS:
-                count += 1
+                count = True
                 self.__create_thumbnail(file_name, extension)    
-        print("⭐️⭐️⭐️ Thumbnails Created! 🍰 ⭐️⭐️⭐️" if count > 0 else "🛑 No images found 🛑")
+        print("⭐️⭐️⭐️ Thumbnails Created! 🍰 ⭐️⭐️⭐️" if count else "🛑 No images found 🛑")
 
     def __thumbnail_image(self, img_info):
         """creates a thumbnail with the sepecified name of the image"""
@@ -41,7 +41,6 @@ class ThumbnailCreator:
 
 
     def __create_thumbnail(self, name = None, extension = None, width = None, heigth = None, rgb = None):
-        """creates a thumbnail with the sepecified name of the image"""
         if not os.path.exists("thumbnails"):
             os.mkdir("thumbnails")
         image = Image.open(name + extension, 'r')
