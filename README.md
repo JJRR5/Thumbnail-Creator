@@ -1,5 +1,5 @@
 
-# **thumbnail-creator**
+# **Thumbnail-creator**
 
 <mark>**⚠️** The command will reduce the quality of the image but this won't be a problem due to the thumbnails are small and don't require to much quality</mark>
 
