@@ -7,7 +7,7 @@ the command will make a search throught the current directory to find all the im
 - jpg
 - png
 - jpeg
-- -gif
+- gif
 
 The images will be transformed into thumbnails with the exact size for odoo's snippets  ( the original image isn't modified the command creates a copy )
 
