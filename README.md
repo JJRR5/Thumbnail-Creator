@@ -10,6 +10,20 @@ the command will make a search throught the current directory to find all the im
 
 The images will be transformed into thumbnails with the exact size for odoo's snippets  ( the original image isn't modified the command creates a copy )
 
+---
+
+e.g.
+
+![image](https://user-images.githubusercontent.com/76703666/207098872-16553d5d-3307-4934-8c07-6d8b41278cb6.png)
+
+**Snippet**
+
+![image](https://user-images.githubusercontent.com/76703666/207100079-9752f75b-9a29-47a0-adaa-b27357e11489.png)
+
+**Thumbnail**
+
+---
+
 ## **Requirements 🔃**
     -pip install Pillow
     -pip install argparse
