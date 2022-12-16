@@ -37,10 +37,13 @@ e.g.
 | ~/Personal/thumbnail_creator.py      | alias thumbnail="python3  ~/Personal/thumbnail_creator.py"       |
 ---
 -   *your_alias --thumb-all*
-    - Run <mark>thumb-all</mark> command in a directory where you want to create your thumbnails.
+    - The command creates a thumbnail for every image in the current path
+    - **Parameters:**
+        - None  
 
 ---
 -   *your_alias --thumb **< name_of_your_image> < .jpg >***
-    - Run <mark>thumb < name_of_your_image > <.jpg> </mark> to specified the Image you want to create the thumbnail
-    - **name_of_your_image:** the name of the file`(str)`
-    - **extension:** the extension of the image (.jpg, .jpeg, .png) `(str)`
+    - The command creates a thumbnail for the specified image
+    - **Parameters:**
+        - **name_of_your_image:** the name of the file`(str)`
+        - **extension:** the extension of the image (.jpg, .jpeg, .png) `(str)`
