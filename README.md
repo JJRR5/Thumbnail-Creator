@@ -8,7 +8,7 @@ The command will make a search throught the current directory to find all the im
 - png
 - jpeg
 
-The images will be transformed into thumbnails with the exact size and background-color for odoo's snippets  ( the original image isn't modified the command creates a copy )
+The images will be transformed into thumbnails with the exact size and background-color for odoo's snippets. The original image isn't modified the command creates a copy and a folder called `thumbnails` where are going to be stored.
 
 ---
 
@@ -37,7 +37,7 @@ e.g.
 | ~/Personal/thumbnail_creator.py      | alias thumbnail="python3  ~/Personal/thumbnail_creator.py"       |
 ---
 -   *your_alias --thumb-all*
-    - Run <mark>thumb-all</mark> command in a directory where you want to create your thumbnails , the command will create a folder called thumbnails where all of the images that you have in the current path will have a thumbnail.
+    - Run <mark>thumb-all</mark> command in a directory where you want to create your thumbnails.
 
 ---
 -   *your_alias --thumb **< name_of_your_image> < .jpg >***
