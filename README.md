@@ -3,7 +3,7 @@
 
 <mark>**⚠️** The command will reduce the quality of the image but this won't be a problem due to the thumbnails are small and don't require to much quality</mark>
 
-the command will make a search throught the current directory to find all the images or the image in the following formats:
+The command will make a search throught the current directory to find all the images or the image in the following formats:
 - jpg
 - png
 - jpeg
