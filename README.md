@@ -8,7 +8,7 @@ The command will make a search throught the current directory to find all the im
 - png
 - jpeg
 
-The images will be transformed into thumbnails with the exact size for odoo's snippets  ( the original image isn't modified the command creates a copy )
+The images will be transformed into thumbnails with the exact size and background-color for odoo's snippets  ( the original image isn't modified the command creates a copy )
 
 ---
 
