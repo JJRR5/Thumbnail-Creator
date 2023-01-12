@@ -46,4 +46,4 @@ e.g.
     - The command creates a thumbnail for the specified image
     - **Parameters:**
         - **name_of_your_image:** the name of the file`(str)`
-        - **extension:** the extension of the image (.jpg, .jpeg, .png) `(str)`
+        - **extension:** the extension of the image (.jpg, .jpeg, .png) `(str)` including the dot at the beginning 
